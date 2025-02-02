@@ -1,0 +1,24 @@
+package com.aurionpro;
+
+public class Calculator {
+	
+	static double number1 = 30;
+	static double number2 = 10;
+	
+	public static double sum(double number1 , double number2){
+		return number1 + number2;
+	}
+	
+	public static double difference(double number1 , double number2){
+		return number1 - number2;
+	}
+	
+	public static double product(double number1 , double number2){
+		return number1 * number2;
+	}
+	
+	public static double division(double number1 , double number2){
+		return number1 / number2;
+	}
+
+}

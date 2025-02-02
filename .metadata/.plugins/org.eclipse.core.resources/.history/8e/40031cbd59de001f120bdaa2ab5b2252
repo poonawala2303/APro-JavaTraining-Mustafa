@@ -1,0 +1,13 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class CurrencyDenomination {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		int initialInputAmount = inputVariable.nextInt();
+		
+		
+	}
+}

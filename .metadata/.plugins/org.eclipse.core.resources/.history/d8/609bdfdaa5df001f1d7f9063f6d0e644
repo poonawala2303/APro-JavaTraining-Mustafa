@@ -1,0 +1,40 @@
+package com.aurionpeo.FileHandling;
+
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileReader {
+	public static void main(String[] args) 
+	{
+		try 
+		{
+			FileReader file = new FileReader("D:\\AurionPro_Mustafa_Java\\text.txt");
+			
+			try
+			{
+				file.write("Java is the best");
+				file.close();
+			}
+			
+			catch (IOException e) 
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			finally
+			{
+				System.out.println("File Write Done");
+			}
+
+			
+		} 
+		
+		catch (IOException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

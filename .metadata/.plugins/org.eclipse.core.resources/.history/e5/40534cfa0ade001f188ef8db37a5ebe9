@@ -1,0 +1,58 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class TreasureHuntApp {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Welcome to Treasure Island. Your mission is to find the treasure");
+		
+		System.out.println("Left OR Right ?");
+		String directionChoice = inputVariable.nextLine(); 
+		
+		if(directionChoice.equals("Left") || directionChoice.equals("left"))
+		{
+			System.out.println("Swim OR Wait ??");
+			String swimOrWaitChoice = inputVariable.nextLine();
+			
+			if(swimOrWaitChoice.equals("Swim") || swimOrWaitChoice.equals("swim"))
+			{
+				System.out.println("Attakced by trout. Game Over");
+			}
+			
+			else if (swimOrWaitChoice.equals("Wait") || swimOrWaitChoice.equals("wait"))
+			{
+				
+				System.out.println("Enter the Door Choice (Red , Yellow , Blue): ");
+				String doorChoice = inputVariable.nextLine();
+				
+				if(doorChoice.equals("Red") || doorChoice.equals("red"))
+				{
+					System.out.println("Burned by fire. Game over");
+				}
+				
+				else if(doorChoice.equals("Blue") || doorChoice.equals("blue"))
+				{
+					System.out.println("Eaten by Beasts. Game over");
+				}
+				
+				else if(doorChoice.equals("Yellow") || doorChoice.equals("yellow"))
+				{
+					System.out.println("You WIN !!!1");
+				}
+				
+				else
+				{
+					System.out.println("Game over");
+				}
+			}
+		}
+		
+		else
+		{
+			System.out.println("Fall into a hole. Game Over");
+		}
+		
+	}
+}

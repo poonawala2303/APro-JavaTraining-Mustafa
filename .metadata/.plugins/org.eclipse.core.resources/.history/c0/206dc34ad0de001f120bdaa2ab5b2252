@@ -1,0 +1,7 @@
+package com.aurionpro;
+
+public class ImplicitTypecasting {
+	public static void main(String[] args) {
+		
+	}
+}

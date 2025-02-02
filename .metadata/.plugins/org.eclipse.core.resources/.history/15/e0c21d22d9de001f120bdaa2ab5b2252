@@ -1,0 +1,7 @@
+package com.aurionpro.arrays;
+
+public class LargestElementOfArray {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in)
+	}
+}

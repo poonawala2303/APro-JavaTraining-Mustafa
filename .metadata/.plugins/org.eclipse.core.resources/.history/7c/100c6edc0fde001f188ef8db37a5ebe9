@@ -1,0 +1,7 @@
+package com.aurionpro.loops;
+
+public class NumberReversal {
+	public static void main(String[] args) {
+		
+	}
+}

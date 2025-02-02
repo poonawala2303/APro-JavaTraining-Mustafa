@@ -1,0 +1,38 @@
+package com.aurionpeo.FileHandling;
+
+import java.io.*;
+
+public class FileReadingWithBuffer 
+{
+	public static void main(String[] args) 
+	{
+		try 
+		{
+			FileReader file = new FileReader("D:\\AurionPro_Mustafa_Java\\text.java");
+			BufferedReader buffer = new BufferedReader(file);
+			
+			try
+			{
+				String i = 1;
+				while ((i=BufferedReader.readLine())!= -1)
+				{
+					System.out.print(i);
+				}
+			}
+						
+			finally
+			{
+				System.out.println("\n\nFile Read Done");
+			}
+
+			
+		} 
+		
+		catch (IOException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

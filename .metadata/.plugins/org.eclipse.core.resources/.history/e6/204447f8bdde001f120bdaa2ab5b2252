@@ -1,0 +1,8 @@
+package com.aurionpro.loops;
+
+public class LetsPlayPIG {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+	}
+}

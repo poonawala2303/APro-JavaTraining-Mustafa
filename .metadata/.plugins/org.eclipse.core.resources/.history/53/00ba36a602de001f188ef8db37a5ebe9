@@ -1,0 +1,17 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class EvenOddChecker {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Enter number 1: ");
+		int number1 = inputVariable.nextInt();
+		System.out.println("Enter number 2: ");
+		int number2 = inputVariable.nextInt();
+		
+		System.out.println("Number 1 : " + number1);
+		System.out.println("Number 2 : " + number2);
+	}
+}

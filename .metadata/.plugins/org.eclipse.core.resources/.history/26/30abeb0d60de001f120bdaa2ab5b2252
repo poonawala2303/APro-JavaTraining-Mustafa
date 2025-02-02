@@ -1,0 +1,21 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class NumberGuesserGame {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		int userGuess = inputVariable.nextInt();
+		
+		int maxPossibleAttempts = 5;
+		
+		// defining range for random number Generation
+		int max = 100;
+		int min = 1;
+		int range = max - min + 1;
+		
+		int randomNumber = (int)(Math.random() * range) + min;
+		System.out.println(randomNumber);
+	}
+}

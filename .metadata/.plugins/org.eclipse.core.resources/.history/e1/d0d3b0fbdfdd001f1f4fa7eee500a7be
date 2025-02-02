@@ -1,0 +1,25 @@
+package com.aurionpro;
+
+import java.util.Scanner;
+
+public class Information {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Enter your full name: ");
+		String name = inputVariable.nextLine();
+		
+		System.out.println("Enter your email address: ");
+		String address = inputVariable.nextLine();
+		
+		System.out.println("Enter your age: ");
+		int age = inputVariable.nextInt();
+		
+		System.out.println("Enter your DOB: ");
+		String dateOfBirth = inputVariable.nextLine();
+		
+		System.out.println("Enter your company name: ");
+		String companyName = inputVariable.nextLine();
+		
+	}
+}

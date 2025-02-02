@@ -1,0 +1,11 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class TreasureHuntApp {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Welcome to Treasure Island. Your mission is to find the treasure");
+	}
+}

@@ -1,0 +1,14 @@
+package com.aurionpro.twodimensionalarrays;
+
+import java.util.Scanner;
+
+public class TwoDArray {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		int row,column;
+		
+		int[][] array = new int[row][column];
+		
+	}
+}

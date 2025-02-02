@@ -1,0 +1,28 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class CurrencyDenomination {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Enter amount to withdraw: ");
+		int initialInputAmount = inputVariable.nextInt();	
+		
+		if (!(initialInputAmount % 100 == 0) && initialInputAmount<=50000)
+		{
+			System.out.println("Enter amounts in multiple of 100");
+		}
+		
+		else if (initialInputAmount <= 50000 && initialInputAmount % 100 == 0)
+		{
+			
+		}
+		
+		else
+		{
+			System.out.println("Amount greater than 50000. Enter a smaller amount");
+		}
+		
+	}
+}

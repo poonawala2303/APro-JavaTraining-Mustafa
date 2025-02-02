@@ -1,0 +1,12 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class Rider {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		int height = inputVariable.nextInt();
+		
+	}
+}

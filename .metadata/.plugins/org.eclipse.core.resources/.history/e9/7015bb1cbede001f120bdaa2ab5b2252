@@ -1,0 +1,18 @@
+package com.aurionpro.loops;
+
+import java.util.Scanner;
+
+public class LetsPlayPIG {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		int totalTurnScore = 0; 
+		int numberOfTurns = 1;
+		
+		while (totalTurnScore < 20){
+			int individualTurnScore = 0;
+			
+			String choice = inputVariable.nextLine();
+		}
+	}
+}

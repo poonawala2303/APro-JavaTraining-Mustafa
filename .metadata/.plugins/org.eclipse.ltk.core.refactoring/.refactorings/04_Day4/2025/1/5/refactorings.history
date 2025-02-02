@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpeo.FileHandling.FileReader&apos; to &apos;FileReading&apos;&#x0D;&#x0A;- Original project: &apos;04_Day4&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpeo.FileHandling.FileReader&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpeo.FileHandling.FileReading&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FileReader&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpeo.FileHandling{FileReader.java[FileReader" matchStrategy="1" name="FileReading" qualified="false" references="true" similarDeclarations="false" stamp="1738309000376" textual="false" version="1.0"/>
+</session>

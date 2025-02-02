@@ -1,0 +1,7 @@
+package com.aurionpeo.FileHandling;
+
+public class FileInformation {
+	public static void main(String[] args) {
+		
+	}
+}

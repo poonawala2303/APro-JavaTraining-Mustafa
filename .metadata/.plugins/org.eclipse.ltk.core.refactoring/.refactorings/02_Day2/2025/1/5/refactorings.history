@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.loops.PrintNumbers&apos; to &apos;PrintNumbersForLoop&apos;&#x0D;&#x0A;- Original project: &apos;02_Day2&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.loops.PrintNumbers&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.loops.PrintNumbersForLoop&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PrintNumbers&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.loops{PrintNumbers.java[PrintNumbers" matchStrategy="1" name="PrintNumbersForLoop" qualified="false" references="true" similarDeclarations="false" stamp="1738133616504" textual="false" version="1.0"/>
+</session>

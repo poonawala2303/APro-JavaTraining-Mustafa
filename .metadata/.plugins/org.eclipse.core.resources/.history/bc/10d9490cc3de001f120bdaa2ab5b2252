@@ -1,0 +1,23 @@
+package com.aurionpro.conditionals;
+
+import java.util.Scanner;
+
+public class Rider {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+		
+		System.out.println("Enter your height in cms: ");
+		int height = inputVariable.nextInt();
+		
+		if(height > 120)
+		{
+			System.out.println("Can ride");
+		}
+		
+		else
+		{
+			System.out.println("Can't ride");
+		}
+		
+	}
+}
