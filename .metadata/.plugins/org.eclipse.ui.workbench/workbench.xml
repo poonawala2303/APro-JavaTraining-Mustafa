@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="38" y="38">
 <fastViewData fastViewLocation="1024"/>
@@ -35,38 +35,33 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoDArray.java" partName="TwoDArray.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java" title="TwoDArray.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="769" selectionTopPixel="482"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RideBillCalculator.java" partName="RideBillCalculator.java" path="D:/AurionPro_Mustafa_Java/02_Day2/src/com/aurionpro/conditionals/RideBillCalculator.java" title="RideBillCalculator.java" tooltip="02_Day2/src/com/aurionpro/conditionals/RideBillCalculator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/02_Day2/src/com/aurionpro/conditionals/RideBillCalculator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="700" selectionTopPixel="690"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatrixCalculator.java" partName="MatrixCalculator.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java" title="MatrixCalculator.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2753" selectionTopPixel="1863"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NumberGuesserGame.java" partName="NumberGuesserGame.java" path="D:/AurionPro_Mustafa_Java/02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java" title="NumberGuesserGame.java" tooltip="02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="352" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileCreation.java" partName="FileCreation.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpeo/FileHandling/FileCreation.java" title="FileCreation.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileCreation.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpeo/FileHandling/FileCreation.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LetsPlayPIG.java" partName="LetsPlayPIG.java" path="D:/AurionPro_Mustafa_Java/02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java" title="LetsPlayPIG.java" tooltip="02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="288" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInformation.java" partName="FileInformation.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpeo/FileHandling/FileInformation.java" title="FileInformation.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileInformation.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpeo/FileHandling/FileInformation.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="229" selectionTopPixel="69"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatrixMultiplication.java" partName="MatrixMultiplication.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java" title="MatrixMultiplication.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="966"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileWrite.java" partName="FileWrite.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpeo/FileHandling/FileWrite.java" title="FileWrite.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileWrite.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpeo/FileHandling/FileWrite.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="197" selectionTopPixel="207"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SecondLargestElement.java" partName="SecondLargestElement.java" path="D:/AurionPro_Mustafa_Java/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java" title="SecondLargestElement.java" tooltip="03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReading.java" partName="FileReading.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpeo/FileHandling/FileReading.java" title="FileReading.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileReading.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpeo/FileHandling/FileReading.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="231" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReadingWithBuffer.java" partName="FileReadingWithBuffer.java" path="D:/AurionPro_Mustafa_Java/04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java" title="FileReadingWithBuffer.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="233" selectionTopPixel="138"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubstringInString.java" partName="SubstringInString.java" path="D:/AurionPro_Mustafa_Java/03_Day3/src/com/aurionpro/arrays/SubstringInString.java" title="SubstringInString.java" tooltip="03_Day3/src/com/aurionpro/arrays/SubstringInString.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03_Day3/src/com/aurionpro/arrays/SubstringInString.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="663" selectionTopPixel="205"/>
 </editor>
 </editors>
 <views>
@@ -103,9 +98,8 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="104" org.eclipse.ui.ide.markerType="154" org.eclipse.ui.ide.pathField="204" org.eclipse.ui.ide.resourceField="154" org.eclipse.ui.ide.severityAndDescriptionField="500"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -129,10 +123,10 @@
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
 </views>
@@ -191,11 +185,11 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -220,7 +214,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15819801" ratioLeft="302" ratioRight="1607" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.48101267" ratioLeft="418" ratioRight="451" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.54545456" ratioLeft="474" ratioRight="395" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -296,58 +290,42 @@
 <view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ant.ui.views.AntView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="654" ratioRight="218" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="654" ratioRight="218" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44954127" ratioLeft="294" ratioRight="360" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ant.ui.views.AntView" appearance="2" expanded="2">
-<page content="org.eclipse.ant.ui.views.AntView" label="Ant"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ant.ui.views.AntView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ant.ui.views.AntView" label="Ant"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="2"/>
 <part id="1"/>
 </presentation>
@@ -360,164 +338,171 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileCreation.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileInformation.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileWrite.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileReader.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileReading.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpeo/FileHandling/FileInformation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/02_Day2/src/com/aurionpro/conditionals/Rider.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/02_Day2/src/com/aurionpro/conditionals/RideBillCalculator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03_Day3/src/com/aurionpro/arrays/ShiftCharactersInString.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03_Day3/src/com/aurionpro/arrays/SubstringInString.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java"/>
 </editors>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="980" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="401" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="756" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="618" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="531" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="931" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="3258" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="3258" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2475" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="3254" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2629" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2813" y="0"/>
-</item>
-<item historyLabel="TwoDArray.java" index="0">
-<position info="not_deleted" x="769" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2813" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2783" y="0"/>
-</item>
-<item historyLabel="MatrixCalculator.java" index="1">
-<position info="not_deleted" x="2753" y="0"/>
-</item>
-<item historyLabel="FileCreation.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FileCreation.java" index="2">
-<position info="not_deleted" x="406" y="0"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FileCreation.java" index="2">
-<position info="not_deleted" x="442" y="0"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="FileCreation.java" index="2">
-<position info="not_deleted" x="159" y="62"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="288" y="0"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="711" y="0"/>
-</item>
-<item historyLabel="FileWrite.java" index="4">
-<position info="not_deleted" x="669" y="0"/>
-</item>
-<item historyLabel="FileInformation.java" index="3">
-<position info="not_deleted" x="229" y="0"/>
-</item>
-<item historyLabel="FileWrite.java" index="4">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="FileReader.java" index="5">
-<position info="not_deleted" x="552" y="0"/>
-</item>
-<item historyLabel="FileWrite.java" index="4">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="FileCreation.java" index="2">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="FileWrite.java" index="4">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="FileReader.java" index="5">
-<position info="not_deleted" x="552" y="0"/>
-</item>
-<item historyLabel="FileWrite.java" index="4">
-<position info="not_deleted" x="197" y="0"/>
-</item>
-<item historyLabel="FileReader.java" index="5">
-<position info="not_deleted" x="552" y="0"/>
-</item>
-<item historyLabel="FileReading.java" index="6">
-<position info="not_deleted" x="90" y="0"/>
-</item>
-<item historyLabel="FileReading.java" index="6">
-<position info="not_deleted" x="91" y="0"/>
-</item>
-<item historyLabel="FileReading.java" index="6">
-<position info="not_deleted" x="294" y="0"/>
-</item>
-<item historyLabel="FileReading.java" index="6">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="FileReadingWithBuffer.java" index="7">
+<item historyLabel="FileReadingWithBuffer.java" index="1">
 <position info="not_deleted" x="0" y="621"/>
 </item>
-<item historyLabel="FileReading.java" index="6">
+<item historyLabel="FileReading.java" index="0">
 <position info="not_deleted" x="130" y="0"/>
 </item>
-<item historyLabel="FileReadingWithBuffer.java" index="7">
+<item historyLabel="FileReadingWithBuffer.java" index="1">
 <position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="FileReading.java" index="6">
+<item historyLabel="FileReading.java" index="0">
 <position info="not_deleted" x="152" y="74"/>
 </item>
-<item historyLabel="FileReadingWithBuffer.java" index="7">
+<item historyLabel="FileReadingWithBuffer.java" index="1">
 <position info="not_deleted" x="233" y="0"/>
 </item>
-<item active="true" historyLabel="FileReading.java" index="6">
-<position info="not_deleted" x="152" y="74"/>
+<item historyLabel="FileReading.java" index="0">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="2796" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4149" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4369" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4378" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4868" y="60"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4802" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4369" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4328" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="5025" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4299" y="60"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4378" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4299" y="60"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="5974" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="5906" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="5974" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="2118" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="3">
+<position info="not_deleted" x="3049" y="0"/>
+</item>
+<item historyLabel="MatrixCalculator.java" index="2">
+<position info="not_deleted" x="4649" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="3">
+<position info="not_deleted" x="3049" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="3">
+<position info="not_deleted" x="2876" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="3">
+<position info="not_deleted" x="3053" y="0"/>
+</item>
+<item historyLabel="FileInformation.java" index="4">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="SecondLargestElement.java" index="5">
+<position info="not_deleted" x="1287" y="0"/>
+</item>
+<item historyLabel="Rider.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RideBillCalculator.java" index="7">
+<position info="not_deleted" x="700" y="0"/>
+</item>
+<item historyLabel="NumberGuesserGame.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NumberGuesserGame.java" index="8">
+<position info="not_deleted" x="66" y="0"/>
+</item>
+<item historyLabel="LetsPlayPIG.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LetsPlayPIG.java" index="9">
+<position info="not_deleted" x="395" y="0"/>
+</item>
+<item historyLabel="LetsPlayPIG.java" index="9">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="LetsPlayPIG.java" index="9">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="LetsPlayPIG.java" index="9">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="SecondLargestElement.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TwoDArray.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SecondLargestElement.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShiftCharactersInString.java" index="12">
+<position info="not_deleted" x="200" y="0"/>
+</item>
+<item historyLabel="SecondLargestElement.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SubstringInString.java" index="13">
+<position info="not_deleted" x="671" y="0"/>
+</item>
+<item historyLabel="SubstringInString.java" index="13">
+<position/>
+</item>
+<item historyLabel="SubstringInString.java" index="13">
+<position/>
+</item>
+<item historyLabel="SubstringInString.java" index="13">
+<position info="not_deleted" x="658" y="0"/>
+</item>
+<item historyLabel="MatrixMultiplication.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="SubstringInString.java" index="13">
+<position info="not_deleted" x="658" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -528,6 +513,9 @@
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="left"/>
 </trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -535,12 +523,31 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubstringInString.java" tooltip="03_Day3/src/com/aurionpro/arrays/SubstringInString.java">
+<persistable path="/03_Day3/src/com/aurionpro/arrays/SubstringInString.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShiftCharactersInString.java" tooltip="03_Day3/src/com/aurionpro/arrays/ShiftCharactersInString.java">
+<persistable path="/03_Day3/src/com/aurionpro/arrays/ShiftCharactersInString.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoDArray.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java">
+<persistable path="/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SecondLargestElement.java" tooltip="03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java">
+<persistable path="/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatrixMultiplication.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java">
+<persistable path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixMultiplication.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LetsPlayPIG.java" tooltip="02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java">
+<persistable path="/02_Day2/src/com/aurionpro/loops/LetsPlayPIG.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NumberGuesserGame.java" tooltip="02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java">
+<persistable path="/02_Day2/src/com/aurionpro/conditionals/NumberGuesserGame.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReadingWithBuffer.java" tooltip="04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java">
 <persistable path="/04_Day4/src/com/aurionpeo/FileHandling/FileReadingWithBuffer.java"/>
 </file>
@@ -559,23 +566,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatrixCalculator.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java">
 <persistable path="/04_Day4/src/com/aurionpro/twodimensionalarrays/MatrixCalculator.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoDArray.java" tooltip="04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java">
-<persistable path="/04_Day4/src/com/aurionpro/twodimensionalarrays/TwoDArray.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShiftCharactersInString.java" tooltip="03_Day3/src/com/aurionpro/arrays/ShiftCharactersInString.java">
-<persistable path="/03_Day3/src/com/aurionpro/arrays/ShiftCharactersInString.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubstringInString.java" tooltip="03_Day3/src/com/aurionpro/arrays/SubstringInString.java">
-<persistable path="/03_Day3/src/com/aurionpro/arrays/SubstringInString.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentMarksAnalyser.java" tooltip="03_Day3/src/com/aurionpro/arrays/StudentMarksAnalyser.java">
 <persistable path="/03_Day3/src/com/aurionpro/arrays/StudentMarksAnalyser.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MaxNumberofOnes.java" tooltip="03_Day3/src/com/aurionpro/arrays/MaxNumberofOnes.java">
 <persistable path="/03_Day3/src/com/aurionpro/arrays/MaxNumberofOnes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SecondLargestElement.java" tooltip="03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java">
-<persistable path="/03_Day3/src/com/aurionpro/arrays/SecondLargestElement.java"/>
 </file>
 </mruList>
 </workbench>

@@ -8,12 +8,12 @@ public class TreasureHuntApp {
 		
 		System.out.println("Welcome to Treasure Island. Your mission is to find the treasure");
 		
-		System.out.println("Left OR Right ?");
+		System.out.print("Left OR Right ? ");
 		String directionChoice = inputVariable.nextLine(); 
 		
 		if(directionChoice.equalsIgnoreCase("Left"))
 		{
-			System.out.println("Swim OR Wait ??");
+			System.out.print("Swim OR Wait ?? ");
 			String swimOrWaitChoice = inputVariable.nextLine();
 			
 			if(swimOrWaitChoice.equalsIgnoreCase("Swim"))
@@ -24,7 +24,7 @@ public class TreasureHuntApp {
 			else if (swimOrWaitChoice.equalsIgnoreCase("Wait"))
 			{
 				
-				System.out.println("Enter the Door Choice (Red , Yellow , Blue): ");
+				System.out.print("Enter the Door Choice (Red , Yellow , Blue): ");
 				String doorChoice = inputVariable.nextLine();
 				
 				if(doorChoice.equalsIgnoreCase("Red"))

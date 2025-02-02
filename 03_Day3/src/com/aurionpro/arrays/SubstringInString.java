@@ -10,11 +10,17 @@ public class SubstringInString {
 		String mainString = inputVariable.nextLine();
 		
 		System.out.println("Enter the substring to match");
-		String subString = inputVariable.nextLine();
+		String subStringmatch = inputVariable.nextLine();
 		
-		if (mainString.indexOf(subString) != 1)
-		{
-			System.out.println("Substring found at index " + mainString.indexOf(subString));
-		}
+		boolean answer = isSubstring(mainString,subStringmatch);
+		System.out.println("Substring found: " + answer);
+		
 	}
+	
+	static boolean isSubstring(String mainString , String subStringmatch)
+	{
+		
+			return mainString.contains(subStringmatch);
+	}
+	
 }

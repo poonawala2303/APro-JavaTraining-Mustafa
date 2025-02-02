@@ -1,0 +1,9 @@
+package com.aurionpro.arrays;
+
+import java.util.Scanner;
+
+public class SquareOfElementsInArray {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+	}
+}

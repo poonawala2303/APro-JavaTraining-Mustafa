@@ -1,0 +1,7 @@
+package com.aurionpeo.FileHandling;
+
+public class FileHandlingAssignment {
+	public static void main(String[] args) {
+		Scanner inputVariable = new Scanner(System.in);
+	}
+}

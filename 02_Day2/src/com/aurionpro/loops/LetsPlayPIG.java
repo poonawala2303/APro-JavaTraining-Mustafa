@@ -9,14 +9,18 @@ public class LetsPlayPIG {
 		int totalTurnScore = 0;
 		int numberOfTurns = 1;
 
+		System.out.println("Welcome to PIG Game");
+		
 		while (totalTurnScore < 20) 
 		{
+			
+			
 			int individualTurnScore = 0;
-			System.out.println("\n TURN - " + numberOfTurns);
+			System.out.println("\nTURN - " + numberOfTurns);
 
 			while (true) 
 			{
-				System.out.println("Roll or Hold (r/h) ? ");
+				System.out.print("\nRoll or Hold (r/h) ? ");
 				String choice = inputVariable.nextLine();
 
 				if (choice.equalsIgnoreCase("h")) 
@@ -29,12 +33,12 @@ public class LetsPlayPIG {
 				int range = max - min + 1;
 
 				int dieNumber = (int) (Math.random() * range) + min;
-				System.out.println("Die: " + dieNumber);
+				System.out.println("The number on the Die is: " + dieNumber);
 
 				if (dieNumber == 1) 
 				{
 					individualTurnScore = 0;
-					System.out.println("Turn over. No score");
+					System.out.println("\nTurn over. No score for the turn as the number on the Die was 1. Keep Trying !!");
 					break;
 				}
 
@@ -44,7 +48,7 @@ public class LetsPlayPIG {
 			}
 			numberOfTurns++;
 			totalTurnScore += individualTurnScore;
-			System.out.println("Total Score: " + totalTurnScore);
+			System.out.println("Total Score: " + totalTurnScore + "\n");
 			
 		}
 		System.out.println("You finished in " + (numberOfTurns - 1) + " turns");
