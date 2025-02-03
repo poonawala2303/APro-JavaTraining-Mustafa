@@ -1,6 +1,5 @@
-#Sun Feb 02 19:39:31 IST 2025
 AbstractTextEditor.Color.Background=0,0,0
-lineNumberColor=255,255,255
 AbstractTextEditor.Color.SelectionBackground=0,0,0
 eclipse.preferences.version=1
+lineNumberColor=255,255,255
 overviewRuler_migration=migrated_3.1

@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class FileHandlingAssignment {
 	public static void main(String[] args) {
+		
 		Scanner inputVariable = new Scanner(System.in);
 		
 		System.out.print("Enter the name of the file: ");
@@ -25,7 +26,6 @@ public class FileHandlingAssignment {
 			
 			if (file.exists())
 			{
-				System.out.println("File already exists. Getting Information of the file");
 				String lines;
 				while((lines = br.readLine()) != null)
 				{
@@ -53,42 +53,16 @@ public class FileHandlingAssignment {
 				
 			}
 			
-			else
-			{
-				file.createNewFile();
-				
-				System.out.println("File created Succesfully\n");
-					
-				while(br.readLine() != null)
-				{
-						
-					// Counting the Lines
-						
-					lineCount++;
-						
-					// Splitting the line into words with the help of array.
-						
-					String[] words = br.readLine().split(" ");
-					wordCount += words.length ;
-						
-					// Counting the characters
-						
-					for(String word: words)
-					{
-						charCount += word.length();
-					}
-				}					
-					
-					System.out.println("Line Count: " + lineCount);
-					System.out.println("Character Count: " + charCount);
-					System.out.println("Word Count: " + wordCount);
-				}
+//			else
+//			{
+//				System.out.println("File not found. Enter valid name of the file");
+//			}
 		
 		}
 		
 		catch (IOException e)
 		{
-			e.printStackTrace();
+			System.out.println("\nFile not found. Enter valid name of the file");
 		}
 		
 		finally

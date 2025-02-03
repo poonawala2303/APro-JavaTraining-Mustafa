@@ -1,0 +1,7 @@
+Object-Oriented Programming or Java OOPs concept refers to programming languages that use objects in programming.
+They use objects as a primary source to implement what is to happen in the code. Objects are seen by the viewer or
+user, performing tasks you assign.
+
+Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc. in
+programming. The main aim of OOPs is to bind together the data and the functions that operate on them so that no
+other part of the code can access this data except that function.
