@@ -1,7 +1,0 @@
-package com.aurionpro.arrays;
-
-public class PeakValueOfArray {
-	public static void main(String[] args) {
-		
-	}
-}

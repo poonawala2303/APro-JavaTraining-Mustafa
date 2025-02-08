@@ -3,4 +3,8 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.ElectricCar"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Circle"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
 </qualifiedTypeNameHistroy>

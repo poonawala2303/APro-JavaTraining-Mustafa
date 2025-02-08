@@ -1,7 +1,0 @@
-package com.aurionpro.loops;
-
-public class PalindromeChecker {
-	public static void main(String[] args) {
-		Scanner inputVariable = new Scanner(System.in);
-	}
-}

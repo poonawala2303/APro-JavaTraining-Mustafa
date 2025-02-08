@@ -1,7 +1,0 @@
-package com.aurionpro.arrays;
-
-public class MaxNumberofOnes {
-	public static void main(String[] args) {
-		
-	}
-}

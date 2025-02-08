@@ -1,7 +1,0 @@
-package com.aurionpro;
-
-public class ExplicitTypecasting {
-	public static void main(String[] args) {
-
-	}
-}

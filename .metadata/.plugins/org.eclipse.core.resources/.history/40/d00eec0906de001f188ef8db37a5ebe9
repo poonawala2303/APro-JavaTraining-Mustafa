@@ -1,7 +1,0 @@
-package com.aurionpro.conditionals;
-
-public class PositiveNegativeChecker {
-	public static void main(String[] args) {
-		
-	}
-}

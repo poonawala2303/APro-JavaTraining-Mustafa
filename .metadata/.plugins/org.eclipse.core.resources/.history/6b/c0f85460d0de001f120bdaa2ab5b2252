@@ -1,9 +1,0 @@
-package com.aurionpro;
-
-public class ImplicitTypecasting {
-	public static void main(String[] args) {
-		byte number1 = 100;
-		short number2 = number1;
-		int number3 = number2;
-	}
-}

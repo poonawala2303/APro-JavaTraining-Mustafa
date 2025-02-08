@@ -1,8 +1,0 @@
-package com.aurionpeo.FileHandling;
-
-public class FileReader {
-	public static void main(String[] args) 
-	{
-		
-	}
-}

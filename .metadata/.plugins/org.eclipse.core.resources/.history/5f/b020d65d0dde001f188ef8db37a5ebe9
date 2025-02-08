@@ -1,7 +1,0 @@
-package com.aurionpro.loops;
-
-public class PrintNumbers {
-	public static void main(String[] args) {
-		
-	}
-}

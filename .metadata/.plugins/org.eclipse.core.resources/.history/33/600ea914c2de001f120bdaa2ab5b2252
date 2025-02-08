@@ -1,7 +1,0 @@
-package com.aurionpro.conditionals;
-
-public class Rider {
-	public static void main(String[] args) {
-		Scanner inputVariable = new Scanner(System.in);
-	}
-}
