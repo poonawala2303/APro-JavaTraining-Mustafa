@@ -1,10 +1,13 @@
 package com.aurionpro.model;
 
-public class Movie 
+import java.io.Serializable;
+
+public class Movie implements Serializable
 {
 	
 	// Variables
 	
+	private static final long serialVersionUID = 1L;
 	private int id;
 	private String name;
 	private int year;
@@ -24,56 +27,10 @@ public class Movie
 		this.year = year;
 		this.genre = genre;
 	}
-	
-	// Getters and Setters
-
-	public int getId() 
-	{
-		return id;
-	}
-
-	public void setId(int id) 
-	{
-		this.id = id;
-	}
-
-	public String getName() 
-	{
-		return name;
-	}
-
-	public void setName(String name) 
-	{
-		this.name = name;
-	}
-
-	public int getYear() 
-	{
-		return year;
-	}
-
-	public void setYear(int year) 
-	{
-		this.year = year;
-	}
-
-	public String getGenre() 
-	{
-		return genre;
-	}
-
-	public void setGenre(String genre) 
-	{
-		this.genre = genre;
-	}
 
 	@Override
 	public String toString() {
-		return "Movie [id=" + id + ", name=" + name + ", year=" + year + ", genre=" + genre + "]";
+		return "Movie Id= " + id + ", Movie Name= " + name + ", Year of Release= " + year + ", Genre= " + genre + "]";
 	}
-	
-	// Object initialization
-	
-	Movie movie = new Movie();
 	
 }
