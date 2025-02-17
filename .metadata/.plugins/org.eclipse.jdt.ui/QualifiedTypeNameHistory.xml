@@ -6,6 +6,21 @@
     <fullyQualifiedTypeName name="com.aurionpro.model.ElectricCar"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Circle"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Movie"/>
+    <fullyQualifiedTypeName name="com.aurionpro.exceptions.NegativeAmountException"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.CreditCardPayment"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.DebitCardPayment"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Vehicle"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Book"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Shape"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="com.aurionpro.srp.solution.model.Invoice"/>
+    <fullyQualifiedTypeName name="com.auironpro.ocp.violation.model.FestivalType"/>
+    <fullyQualifiedTypeName name="com.aurionpro.isp.violation.model.Robot"/>
+    <fullyQualifiedTypeName name="com.aurionpro.dip.solution.model.DBLogger"/>
+    <fullyQualifiedTypeName name="com.aurionpro.singleton.model.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="com.aurionpro.factory.model.CarType"/>
+    <fullyQualifiedTypeName name="com.aurionpro.factory.solution.model.ICar"/>
 </qualifiedTypeNameHistroy>
