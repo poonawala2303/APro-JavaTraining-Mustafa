@@ -24,12 +24,14 @@ public class HatDecoratorTest
 		
 		String hatCustomize = inputVariable.nextLine();
 		
-		if(hatChoice.equalsIgnoreCase("Standard") || hatCustomize.equalsIgnoreCase("Golden"))
+		if(hatChoice.equalsIgnoreCase("Standard") && hatCustomize.equalsIgnoreCase("Golden"))
 		{
 			IHat hat = new StandardHat();
 			GoldenHat golden = new GoldenHat(hat);
 			
-			System.out.println("\nFinal Price of Hat is: " + golden.getPrice());
+			System.out.println("\nHat Name: " + golden.getName());
+			System.out.println("Hat Description: " + golden.getDescription());
+			System.out.println("Final Price of Hat is: " + golden.getPrice());
 		}
 		
 		if(hatChoice.equalsIgnoreCase("Premium") && hatCustomize.equalsIgnoreCase("Golden"))
@@ -37,7 +39,9 @@ public class HatDecoratorTest
 			IHat hat = new PremiumHat();
 			GoldenHat golden = new GoldenHat(hat);
 			
-			System.out.println("\nFinal Price of Hat is: " + golden.getPrice());
+			System.out.println("\nHat Name: " + golden.getName());
+			System.out.println("Hat Description: " + golden.getDescription());
+			System.out.println("Final Price of Hat is: " + golden.getPrice());
 		}
 		
 		if(hatChoice.equalsIgnoreCase("Standard") && hatCustomize.equalsIgnoreCase("Riboned"))
@@ -45,14 +49,18 @@ public class HatDecoratorTest
 			IHat hat = new StandardHat();
 			RibonedHat riboned = new RibonedHat(hat);
 			
-			System.out.println("\nFinal Price of Hat is: " + riboned.getPrice());
+			System.out.println("\nHat Name: " + riboned.getName());
+			System.out.println("Hat Description: " + riboned.getDescription());
+			System.out.println("Final Price of Hat is: " + riboned.getPrice());
 		}
 		if(hatChoice.equalsIgnoreCase("Premium") && hatCustomize.equalsIgnoreCase("Riboned"))
 		{
 			IHat hat = new PremiumHat();
 			RibonedHat riboned = new RibonedHat(hat);
 			
-			System.out.println("\nFinal Price of Hat is: " + riboned.getPrice());
+			System.out.println("\nHat Name: " + riboned.getName());
+			System.out.println("Hat Description: " + riboned.getDescription());
+			System.out.println("Final Price of Hat is: " + riboned.getPrice());
 		}
 		
 	}
