@@ -23,4 +23,6 @@
     <fullyQualifiedTypeName name="com.aurionpro.singleton.model.DatabaseConnection"/>
     <fullyQualifiedTypeName name="com.aurionpro.factory.model.CarType"/>
     <fullyQualifiedTypeName name="com.aurionpro.factory.solution.model.ICar"/>
+    <fullyQualifiedTypeName name="com.aurionpro.adapter.model.Biscuit"/>
+    <fullyQualifiedTypeName name="com.aurionpro.adapter.model.Hat"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,2 @@
 INDEX VERSION 1.131+D:\AurionPro_Mustafa_Java\.metadata\.plugins\org.eclipse.jdt.core
-2816616911.index
-1980742634.index
-1782280542.index
-3710533467.index
 1865797976.index
