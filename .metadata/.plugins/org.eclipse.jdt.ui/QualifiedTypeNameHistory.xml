@@ -25,4 +25,8 @@
     <fullyQualifiedTypeName name="com.aurionpro.factory.solution.model.ICar"/>
     <fullyQualifiedTypeName name="com.aurionpro.adapter.model.Biscuit"/>
     <fullyQualifiedTypeName name="com.aurionpro.adapter.model.Hat"/>
+    <fullyQualifiedTypeName name="com.aurionpro.decorator.model.RibonedHat"/>
+    <fullyQualifiedTypeName name="com.aurionpro.decorator.model.PremiumHat"/>
+    <fullyQualifiedTypeName name="com.aurionpro.proxy.model.IVideoDownloader"/>
+    <fullyQualifiedTypeName name="com.aurionpro.proxy.model.ICommandExecutor"/>
 </qualifiedTypeNameHistroy>
