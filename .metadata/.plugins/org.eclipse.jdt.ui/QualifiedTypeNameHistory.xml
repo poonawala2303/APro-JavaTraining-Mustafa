@@ -34,4 +34,15 @@
     <fullyQualifiedTypeName name="java.util.concurrent.CompletableFuture"/>
     <fullyQualifiedTypeName name="com.aurionpro.composite.model.ComplexComponent"/>
     <fullyQualifiedTypeName name="com.aurionpro.state.model.IPacketState"/>
+    <fullyQualifiedTypeName name="com.aurionpro.command.model.RemoteControl"/>
+    <fullyQualifiedTypeName name="com.aurionpro.strategy.model.OperationStrategy"/>
+    <fullyQualifiedTypeName name="com.aurionpro.strategy.test.ClientInputs"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.FactorialCalculator"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.StudentMarksService"/>
 </qualifiedTypeNameHistroy>

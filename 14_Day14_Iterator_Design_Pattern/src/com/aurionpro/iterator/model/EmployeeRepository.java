@@ -31,5 +31,56 @@ public class EmployeeRepository implements IContainer
 	{
 		return new SalaryIterator();
 	}
+	
+	private class NameIterator implements IIterator
+	{
+
+		int index;
+		
+		public NameIterator() 
+		{
+			
+		}
+
+		@Override
+		public boolean hasNext() 
+		{
+			return index < employees.size();
+		}
+
+		@Override
+		public Object next() 
+		{
+			if (this.hasNext())
+			{
+				return employees.get(index++).getName();
+			}
+			return null;	
+		}
+	}
+	
+	private class SalaryIterator implements IIterator
+	{
+		
+	    private int index;
+		
+		@Override
+		public boolean hasNext() 
+		{
+			return index < employees.size();
+		}
+
+		@Override
+		public Object next() 
+		{
+			if (this.hasNext())
+			{
+				return employees.get(index++).getSalary();
+			}
+			return null;
+		}
+	}
 
 }
+
+
