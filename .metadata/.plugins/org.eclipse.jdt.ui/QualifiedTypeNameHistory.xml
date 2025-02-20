@@ -29,4 +29,9 @@
     <fullyQualifiedTypeName name="com.aurionpro.decorator.model.PremiumHat"/>
     <fullyQualifiedTypeName name="com.aurionpro.proxy.model.IVideoDownloader"/>
     <fullyQualifiedTypeName name="com.aurionpro.proxy.model.ICommandExecutor"/>
+    <fullyQualifiedTypeName name="com.aurionpro.composite.model.IComponent"/>
+    <fullyQualifiedTypeName name="com.aurionpro.composite.model.LeafComponent"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CompletableFuture"/>
+    <fullyQualifiedTypeName name="com.aurionpro.composite.model.ComplexComponent"/>
+    <fullyQualifiedTypeName name="com.aurionpro.state.model.IPacketState"/>
 </qualifiedTypeNameHistroy>
