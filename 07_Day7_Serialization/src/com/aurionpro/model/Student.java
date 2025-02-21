@@ -5,7 +5,7 @@ public class Student implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	public int id;
-	public transient String name; // transient means we dont want to serialize it
+	public String name; // transient means we dont want to serialize it
 	
 	public Student(int id,String name)
 	{
