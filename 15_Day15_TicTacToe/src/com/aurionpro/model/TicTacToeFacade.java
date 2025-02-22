@@ -24,14 +24,15 @@ public class TicTacToeFacade {
             if (board.checkWinner()) 
             {
                 System.out.println("Player " + currentPlayer.getMark() + " wins!");
-                resetGame();
+                
                 
                 System.out.print("\nDo you want to play again ?");
                 String choice = scanner.nextLine();
                 
                 if(choice.equalsIgnoreCase("no"))
                 	System.exit(0);
-             
+                
+                resetGame();
                 return;
                 
             } 
