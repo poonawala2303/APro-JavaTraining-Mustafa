@@ -12,10 +12,11 @@ public class TicTacToeGame
 
         while (true) 
         {
-            System.out.println("Enter row and column (0-2) to place your mark:");
+            System.out.print("Enter row and column (0-2) to place your mark: ");
             int row = scanner.nextInt();
             int col = scanner.nextInt();
             game.play(row, col);
+            
         }
     }
 }

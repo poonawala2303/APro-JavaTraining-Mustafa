@@ -1,5 +1,7 @@
 package com.aurionpro.model;
 
+import java.util.Scanner;
+
 public class TicTacToeFacade {
     private Board board;
     private Player player1, player2;
@@ -14,18 +16,33 @@ public class TicTacToeFacade {
 
     public void play(int row, int col) 
     {
+    	
         if (board.placeMark(row, col, currentPlayer.getMark())) 
         {
+        	Scanner scanner = new Scanner(System.in);
             board.display();
-            if (board.checkWinner()) {
+            if (board.checkWinner()) 
+            {
                 System.out.println("Player " + currentPlayer.getMark() + " wins!");
                 resetGame();
+                
+                System.out.print("\nDo you want to play again ?");
+                String choice = scanner.nextLine();
+                
+                if(choice.equalsIgnoreCase("no"))
+                	System.exit(0);
+             
                 return;
-            } else if (board.isFull()) {
+                
+            } 
+            
+            else if (board.isFull()) 
+            {
                 System.out.println("Game is a draw!");
                 resetGame();
                 return;
             }
+            
             switchPlayer();
         } 
         
@@ -36,8 +53,20 @@ public class TicTacToeFacade {
         
     }
 
-    private void switchPlayer() {
+    private void switchPlayer() 
+    {
         currentPlayer = (currentPlayer == player1) ? player2 : player1;
+        
+        if(currentPlayer == player1)
+        {
+        	System.out.println("Player X turn");
+        }
+        
+        else
+        {
+        	System.out.println("Player O turn");
+        }
+        
     }
 
     public void resetGame() {

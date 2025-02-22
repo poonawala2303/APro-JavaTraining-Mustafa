@@ -2,8 +2,6 @@ package com.aurionpro.model;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,6 +10,8 @@ class BoardTest
 {
 	
 	Board board;
+	
+	private char[][] grid = new char[3][3];
 	
 	@BeforeEach
 	
@@ -62,12 +62,6 @@ class BoardTest
 		}
 		
 		assertTrue(board.isFull());
-	}
-
-	@Test
-	void testDisplay() 
-	{
-		
 	}
 
 }
