@@ -20,7 +20,7 @@ public class StudentOperations
 			statement.setString(2,name);
 			statement.setInt(3,age);
 			statement.executeUpdate();
-			System.out.println("Student Created Successfully!");
+			System.out.println("Student Created Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -36,11 +36,13 @@ public class StudentOperations
 		{
 			Statement statement = conn.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from students");
-			
+			System.out.println("");
+			System.out.println("RollNum" + "\t" + "Name" + "\t" + "Age");
 			while(resultSet.next())
 			{
-				System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getInt(3));
+				System.out.println(resultSet.getInt(1) + "\t" + resultSet.getString(2) + "\t" + resultSet.getInt(3));
 			}
+			System.out.println("");
 			
 		}
 		
@@ -60,7 +62,7 @@ public class StudentOperations
 			statement.setString(1,name);
 			statement.setInt(2,rollNumber);
 			statement.executeUpdate();
-			System.out.println("Student Updated Successfully!");
+			System.out.println("Student Updated Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -78,7 +80,7 @@ public class StudentOperations
 			PreparedStatement statement = conn.prepareStatement("delete from students where rollNumber = ?");
 			statement.setInt(1,rollNumber);
 			statement.executeUpdate();
-			System.out.println("Student Deleted Successfully!");
+			System.out.println("Student Deleted Successfully!\n");
 		} 
 		
 		catch (SQLException e) 

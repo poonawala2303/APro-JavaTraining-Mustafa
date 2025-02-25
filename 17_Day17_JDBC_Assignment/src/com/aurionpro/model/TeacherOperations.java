@@ -19,7 +19,7 @@ public class TeacherOperations
 			statement.setString(2,name);
 			statement.setString(3,qualification);
 			statement.executeUpdate();
-			System.out.println("Teacher Created Successfully!");
+			System.out.println("Teacher Created Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -37,10 +37,13 @@ public class TeacherOperations
 			Statement statement = conn.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from teacher");
 			
+			System.out.println("");
+			System.out.println("TId" + "\t" + "Name" + "\t" + "Qualification");
 			while(resultSet.next())
 			{
-				System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
+				System.out.println(resultSet.getInt(1) + "\t" + resultSet.getString(2) + "\t" + resultSet.getString(3));
 			}
+			System.out.println("");
 			
 		}
 		
@@ -60,7 +63,7 @@ public class TeacherOperations
 			statement.setString(1,name);
 			statement.setInt(2,teacherId);
 			statement.executeUpdate();
-			System.out.println("Teacher Updated Successfully!");
+			System.out.println("Teacher Updated Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -77,7 +80,7 @@ public class TeacherOperations
 			PreparedStatement statement = conn.prepareStatement("delete from teacher where teacherId = ?");
 			statement.setInt(1,rollNumber);
 			statement.executeUpdate();
-			System.out.println("Teacher Deleted Successfully!");
+			System.out.println("Teacher Deleted Successfully!\n");
 		} 
 		
 		catch (SQLException e) 

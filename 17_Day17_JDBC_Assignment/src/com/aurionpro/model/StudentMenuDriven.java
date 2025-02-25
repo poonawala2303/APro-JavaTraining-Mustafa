@@ -23,7 +23,7 @@ public class StudentMenuDriven {
                     int rollNumber = scanner.nextInt();
 
                     System.out.print("Enter Name: ");
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine();
                     String name = scanner.nextLine();
 
                     System.out.print("Enter Age: ");
@@ -47,11 +47,10 @@ public class StudentMenuDriven {
                     System.out.print("Enter Roll Number to delete: ");
                     rollNumber = scanner.nextInt();
                     operation.deleteStudent(rollNumber);
-                    break; // Add missing break statement
+                    break; 
                 case 5:
-                    System.out.println("Exiting program...");
-                    scanner.close();
-                    System.exit(0);
+                    System.out.println("Thank You...\n");
+                    return;
                 default:
                     System.out.println("Invalid Option! Try again.");
             }

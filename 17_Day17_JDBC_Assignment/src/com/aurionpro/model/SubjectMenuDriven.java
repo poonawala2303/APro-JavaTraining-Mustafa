@@ -49,9 +49,8 @@ public class SubjectMenuDriven {
                     operation.deleteSubject(subId);
                     break; 
                 case 5:
-                    System.out.println("Exiting program...");
-                    scanner.close();
-                    System.exit(0);
+                    System.out.println("Thank You...\n");
+                    return;
                 default:
                     System.out.println("Invalid Option! Try again.");
             }

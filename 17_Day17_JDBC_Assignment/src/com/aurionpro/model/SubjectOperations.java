@@ -18,7 +18,7 @@ public class SubjectOperations
 			statement.setString(2,subName);
 			statement.setInt(3,teacherId);
 			statement.executeUpdate();
-			System.out.println("Subject Created Successfully!");
+			System.out.println("Subject Created Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -36,11 +36,13 @@ public class SubjectOperations
 			Statement statement = conn.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from subjects");
 			
+			System.out.println("");
+			System.out.println("SId" + "\t" + "SName" + "\t" + "TId");
 			while(resultSet.next())
 			{
-				System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getInt(3));
+				System.out.println(resultSet.getInt(1) + "\t" + resultSet.getString(2) + "\t" + resultSet.getInt(3));
 			}
-			
+			System.out.println("");
 		}
 		
 		catch (SQLException e) 
@@ -59,7 +61,7 @@ public class SubjectOperations
 			statement.setString(1,subName);
 			statement.setInt(2,subId);
 			statement.executeUpdate();
-			System.out.println("Subjects Updated Successfully!");
+			System.out.println("Subjects Updated Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
@@ -76,7 +78,7 @@ public class SubjectOperations
 			PreparedStatement statement = conn.prepareStatement("delete from stuents where subId = ?");
 			statement.setInt(1,subId);
 			statement.executeUpdate();
-			System.out.println("Subject Deleted Successfully!");
+			System.out.println("Subject Deleted Successfully!\n");
 		} 
 		
 		catch (SQLException e) 
