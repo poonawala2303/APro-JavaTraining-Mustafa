@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.ElectricCar"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Circle"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Movie"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.CreditCardPayment"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.aurionpro.exceptions.MinimumBalanceException"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.DatabaseConnection"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.TxnManager"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="java.net.URLEncoder"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,9 @@
 package com.aurionpro.controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,13 +16,15 @@ public class Demo extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html");
+		PrintWriter writer = response.getWriter();
+		writer.print("<b>Hello , welcome to servelets</b> <br></br>");
+		writer.print("<i>" + new Date() + "</i>");
+		writer.close();
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

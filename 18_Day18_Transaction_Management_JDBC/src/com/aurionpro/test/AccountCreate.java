@@ -22,13 +22,14 @@ public class AccountCreate{
             System.out.println("\nBanking Application Menu:");
             System.out.println("Select one of the below options:\n");
             System.out.println("1. Create Savings Account");
-            System.out.println("2. Exit");
+            System.out.println("2. Go to Transactions");
             System.out.print("Enter your choice: ");
             
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
             
-            switch (choice) {
+            switch (choice) 
+            {
                 case 1:
                     System.out.print("Enter Holder's Name: ");
                     String name = scanner.nextLine();
@@ -46,7 +47,7 @@ public class AccountCreate{
                     accounts.add(savingsAccount);
                     System.out.println("Savings Account Created! Account Number: " + savingsAccount.getAccountNumber());
                     
-                    try (Connection connection = 							DatabaseConnection.getDatabseConnection().getConnection();)
+                    try (Connection connection = DatabaseConnection.getDatabseConnection().getConnection();)
             		{
             		String query = "INSERT into accounts (account_number,name,balance) values (?,?,?)";
             			
@@ -69,7 +70,10 @@ public class AccountCreate{
             				e.getMessage();
             			}
             		
-            		} catch (SQLException e1) {
+            		}
+                    
+                    catch (SQLException e1) 
+                    {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					} 
@@ -77,7 +81,7 @@ public class AccountCreate{
                     break;
                     
                 case 2:
-                    System.out.println("Thanks for using the Banking Application!");
+                    System.out.println("Redirecting to Transactions Page....\n");
                     return;
                     
                 default:

@@ -1,5 +1,6 @@
 package com.aurionpro.test;
 
+import java.sql.SQLException;
 import java.util.Scanner;
 
 
@@ -7,7 +8,7 @@ import com.aurionpro.model.TxnManager;
 
 public class AccountTest 
 {
-	public static void main(String[] args) 
+	public static void main(String[] args) throws SQLException 
 	{
 				Scanner scanner = new Scanner(System.in);
 				AccountCreate account = new AccountCreate();

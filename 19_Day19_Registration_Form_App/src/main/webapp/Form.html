@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="FormServelet" method="get">
+
+	<div>
+		<h1>Billing Information</h1>
+	
+		<h4>First Name</h4>
+		<input type="text" placeholder="Enter first name" name="firstName">
+		
+		<h4>Last Name</h4>
+		<input type="text" placeholder="Enter last name" name="lastName">
+		
+		<h4>Gender</h4>
+		<input type="radio" name="gender" value="Male">
+		<label for="male">Male</label><br>
+		<input type="radio" name="gender" value="Female">
+		<label for="female">Female</label>
+		
+		<h4>Languages</h4>
+		<input type="checkbox" name="language" value="Telugu">
+		<label for="telugu">Telugu</label><br>
+		<input type="checkbox" name="language" value="English">
+		<label for="english">English</label>
+		<input type="checkbox" name="language" value="Hindi">
+		<label for="hindi">Hindi</label>
+		
+		<h4>Email</h4>
+		<input type="email" placeholder="Enter your email" name="email">
+		
+		<h4>Address</h4>
+		<textarea name ="address" rows="5" cols="30"></textarea>
+		
+		<h4>State</h4>
+		<select name= "stateChoice">
+			<option value="Maharashtra">Maharashtra</option>
+			<option value="Delhi">Delhi</option>
+			<option value="Goa">Goa</option>
+		</select>
+		
+		<h4>ZipCode</h4>
+		<input type="number" placeholder="Enter your zip code" name="zip">
+		
+		<h4>Credit Card Choice</h4>
+		<select name= "cardChoice">
+			<option value="Visa">Visa</option>
+			<option value="MasterCard">MasterCard</option>
+			<option value="RuPay">RuPay</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<button>Submit Form</button>
+		
+	</div>
+	
+
+</form>
+
+</body>
+</html>
