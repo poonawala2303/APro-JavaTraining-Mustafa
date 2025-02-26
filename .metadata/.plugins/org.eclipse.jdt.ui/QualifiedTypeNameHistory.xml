@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.ElectricCar"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Circle"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Movie"/>
-    <fullyQualifiedTypeName name="com.aurionpro.exceptions.NegativeAmountException"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.CreditCardPayment"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.DebitCardPayment"/>
@@ -58,4 +55,9 @@
     <fullyQualifiedTypeName name="com.aurionpro.test.TableTest"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.DatabaseMetaData"/>
     <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.TransactionManagement"/>
+    <fullyQualifiedTypeName name="com.aurionpro.exceptions.NegativeAmountException"/>
+    <fullyQualifiedTypeName name="com.aurionpro.exceptions.MinimumBalanceException"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.TxnManager"/>
 </qualifiedTypeNameHistroy>
