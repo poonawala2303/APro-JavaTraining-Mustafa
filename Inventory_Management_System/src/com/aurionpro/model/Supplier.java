@@ -36,8 +36,10 @@ public class Supplier
 	public void setContactNo(String contactNo) {
 		this.contactNo = contactNo;
 	}
-	
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return "Supplier [supplierId=" + supplierId + ", name=" + name + ", contactNo=" + contactNo + "]";
+	}
+		
 }
