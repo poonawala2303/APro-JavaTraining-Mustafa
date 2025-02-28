@@ -16,8 +16,7 @@ public class StartProgram
 			System.out.println("~~~~~~~~~~Inventory Management System~~~~~~~~~~\n");
 			System.out.println("Enter 1 for Product Operations");
 			System.out.println("Enter 2 for Supplier Operations");
-			System.out.println("Enter 3 for Transaction Operations");
-			System.out.println("Enter 4 to Exit");
+			System.out.println("Enter 3 to Exit");
 			
 			System.out.print("Enter your choice: ");
 			int choice = scanner.nextInt();
@@ -31,9 +30,6 @@ public class StartProgram
 				supplierMenu.supplierMenu();
 				break;
 			case 3:
-				transactionMenu.transactionMenu();
-				break;
-			case 4:
 				System.out.println("Exiting the application. Thank You!!");
 				System.exit(0);
 				
