@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="19_Day19_Cookie_Management_System" path="/19_Day19_Cookie_Management_System" reloadable="true" source="org.eclipse.jst.jee.server:19_Day19_Cookie_Management_System"/></Host>
+      <Context docBase="19_Day19_Http_Session_Management" path="/19_Day19_Cookie_Management_System" reloadable="true" source="org.eclipse.jst.jee.server:19_Day19_Http_Session_Management"/><Context docBase="20_Day20_JSP" path="/20_Day20_JSP" reloadable="true" source="org.eclipse.jst.jee.server:20_Day20_JSP"/><Context docBase="20_Day20_JSP_LOGIN_APP" path="/20_Day20_JSP_LOGIN_APP" reloadable="true" source="org.eclipse.jst.jee.server:20_Day20_JSP_LOGIN_APP"/><Context docBase="21_Day21_JSTL_BASICS" path="/21_Day21_JSTL_BASICS" reloadable="true" source="org.eclipse.jst.jee.server:21_Day21_JSTL_BASICS"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -75,7 +75,7 @@ public class SubjectOperations
 	{
 		try 
 		{
-			PreparedStatement statement = conn.prepareStatement("delete from stuents where subId = ?");
+			PreparedStatement statement = conn.prepareStatement("delete from subjects where subId = ?");
 			statement.setInt(1,subId);
 			statement.executeUpdate();
 			System.out.println("Subject Deleted Successfully!\n");

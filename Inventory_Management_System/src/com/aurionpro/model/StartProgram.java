@@ -1,5 +1,7 @@
 package com.aurionpro.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class StartProgram 
@@ -8,8 +10,12 @@ public class StartProgram
 	{
 		ProductMenu productMenu = new ProductMenu();
 		SupplierMenu supplierMenu = new SupplierMenu();
-		TransactionMenu transactionMenu = new TransactionMenu();
 		Scanner scanner = new Scanner(System.in);
+		FileIO file = new FileIO();
+		
+		List<Product> products = new ArrayList<>();
+		List<Supplier> suppliers = new ArrayList<>();
+		List<Transaction> transactions = new ArrayList<>();
 		
 		while(true)
 		{

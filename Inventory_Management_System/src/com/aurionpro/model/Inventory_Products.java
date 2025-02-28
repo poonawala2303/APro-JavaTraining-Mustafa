@@ -12,6 +12,8 @@ public class Inventory_Products
 {
 	private List<Product> products;
 	private List<Transaction> transactions;
+	private static String filePath = "D:\\AurionPro_Mustafa_Java\\Inventory_Management_System\\products.txt";
+
 	
 	public Inventory_Products()
 	{

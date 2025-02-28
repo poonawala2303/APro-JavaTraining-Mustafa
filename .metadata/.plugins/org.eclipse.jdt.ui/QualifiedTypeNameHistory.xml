@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Movie"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.CreditCardPayment"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.DebitCardPayment"/>
-    <fullyQualifiedTypeName name="com.aurionpro.model.Vehicle"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Book"/>
     <fullyQualifiedTypeName name="com.aurionpro.model.Shape"/>
@@ -42,7 +37,6 @@
     <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.aurionpro.test.ConnectionTest"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
     <fullyQualifiedTypeName name="java.net.URLEncoder"/>
+    <fullyQualifiedTypeName name="com.aurionpro.exceptions.InsufficientStockException"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.aurionpro.exceptions.InvalidProductException"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Inventory_Transactions"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.DisplaySummary"/>
 </qualifiedTypeNameHistroy>
