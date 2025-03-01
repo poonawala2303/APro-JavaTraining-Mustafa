@@ -8,5 +8,6 @@
 </head>
 <body>
 Admin Dashboard
+<% request.getAttribute("name"); %>
 </body>
 </html>
