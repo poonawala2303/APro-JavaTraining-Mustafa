@@ -4,9 +4,24 @@ import java.util.List;
 
 public class DisplaySummary 
 {
-	public void displaySummary(List<Product> products , List<Supplier> suppliers , List<Transaction> transactions) {
-        System.out.println("Total Products: " + products.size());
-        System.out.println("Total Suppliers: " + suppliers.size());
-        System.out.println("Total Transactions: " + transactions.size());
+	
+	public static int getTotalNumberOfProducts(Inventory_Products productManager) {
+        List<Product> products = productManager.viewAllProducts();
+        return products.size();
     }
+
+    public static double getTotalStockValue(Inventory_Products productManager) {
+        List<Product> products = productManager.viewAllProducts();
+        double totalValue = 0;
+        for (Product product : products) {
+            totalValue += product.getQuantity() * product.getPrice();
+        }
+        return totalValue;
+    }
+    
+    public static int getTotalNumberOfSuppliers(Inventory_Supplier supplierManager) {
+        List<Supplier> suppliers = supplierManager.viewAllSuppliers();
+        return suppliers.size();
+    }
+    
 }

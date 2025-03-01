@@ -49,7 +49,7 @@ public class TransactionMenu
                 int removeQuantity= scanner.nextInt();
                 try
                 {
-                	inventorytxn.removeStock(removeStockProdId, removeQuantity);
+//                	inventorytxn.removeStock(removeStockProdId, removeQuantity);
                 }
                 catch(InsufficientStockException e)
                 {

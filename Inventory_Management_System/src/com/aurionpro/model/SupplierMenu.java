@@ -18,6 +18,7 @@ public class SupplierMenu
 			System.out.println("Enter 4 to View Supplier");
 			System.out.println("Enter 5 to View All Suppliers");
 			System.out.println("Enter 6 to Exit");
+			System.out.print("\nEnter your choice: ");
 			
 			int choice = scanner.nextInt();
 			

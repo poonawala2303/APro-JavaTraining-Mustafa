@@ -6,15 +6,18 @@ import java.util.List;
 public class Inventory_Supplier 
 {
 	private List<Supplier> suppliers;
+	private static String filePath = "D:\\AurionPro_Mustafa_Java\\Inventory_Management_System\\suppliers.txt";
 
 	public Inventory_Supplier() 
 	{
 		suppliers = new ArrayList<>() ;
+		suppliers = FileIO.loadSuppliers();
 	}
 	
 	public void addSupplier(Supplier supplier)
 	{
 		suppliers.add(supplier);
+		saveSuppliers();
 	}
 	
 	public void updateSupplier(String supplierId,String contactInfo)
@@ -24,6 +27,7 @@ public class Inventory_Supplier
 			if(supplier.getSupplierId().equals(supplierId))
 			{
 				supplier.setSupplierId(contactInfo);
+				saveSuppliers();
 				break;
 			}
 		}
@@ -32,6 +36,7 @@ public class Inventory_Supplier
 	public void deleteSupplier(String supplierId)
 	{
 		suppliers.removeIf(supplier->supplier.getSupplierId().equals(supplierId));
+		saveSuppliers();
 	}
 	
 	public Supplier viewSupplier(String supplierId)
@@ -51,5 +56,10 @@ public class Inventory_Supplier
 	{
 		return suppliers;
 	}
+	
+	public void saveSuppliers() {
+        FileIO.saveToFile(filePath, suppliers);
+    }
+
 	
 }

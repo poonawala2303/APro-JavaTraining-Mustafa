@@ -12,10 +12,13 @@ public class Inventory_Transactions
 	private List<Transaction> transactions;
 	private List<Product> products;
 	
+	private static String filePath = "D:\\AurionPro_Mustafa_Java\\Inventory_Management_System\\transactions.txt";
+	
 	public Inventory_Transactions()
 	{
 		products = new ArrayList<>();
 		transactions = new ArrayList<>();
+		transactions = FileIO.loadTransactions();
 	}
 	
 	public String generateUniqueId(String type)
@@ -32,6 +35,7 @@ public class Inventory_Transactions
 				product.setQuantity(product.getQuantity() + quantity);
 				transactions.add(new Transaction(generateUniqueId("TXN"),productId,"ADD",quantity,LocalDate.now()));
 				System.out.println("Stock added successfully!!");
+				saveTransactions();
 				break;
 			}
 			
@@ -42,13 +46,14 @@ public class Inventory_Transactions
 		}
 	}
 	
-	public void removeStock(String productId,int quantity)
+	public void removeStock(List<Product> products,String productId,int quantity)
 	{
 		for(Product product : products)
 		{
 			if(product.getProductId().equals(productId))
 			{
 				checkQuantity(product,productId,quantity);
+				saveTransactions();
 				break;
 			}
 			
@@ -84,6 +89,7 @@ public class Inventory_Transactions
 			if(transaction.getProductId().equals(productId))
 			{
 				history.add(transaction);
+				saveTransactions();
 			}
 		}
 		return history;
@@ -96,4 +102,7 @@ public class Inventory_Transactions
         System.out.println("Total Transactions: " + transactions.size());
     }
 	
+	public void saveTransactions() {
+        FileIO.saveToFile(filePath, transactions);
+    }
 }

@@ -13,18 +13,21 @@ public class Inventory_Products
 	private List<Product> products;
 	private List<Transaction> transactions;
 	private static String filePath = "D:\\AurionPro_Mustafa_Java\\Inventory_Management_System\\products.txt";
-
+	private static String txnFilePath = "D:\\AurionPro_Mustafa_Java\\Inventory_Management_System\\transactions.txt";
+	
 	
 	public Inventory_Products()
 	{
 		products = new ArrayList<>();
+		products = FileIO.loadProducts();
 		transactions = new ArrayList<>();
-		
+		transactions = FileIO.loadTransactions();
 	}
 	
 	public void addProduct(Product product)
 	{
 		products.add(product);
+		saveProducts();
 	}
 	
 	public void updateProduct(String productId, int quantity, double price)
@@ -37,6 +40,7 @@ public class Inventory_Products
 				{
 					product.setQuantity(quantity);
 					product.setPrice(price);
+					saveProducts();
 					break;
 				}
 			}
@@ -54,6 +58,7 @@ public class Inventory_Products
 	public void deleteProduct(String productId)
 	{
 		products.removeIf(product -> product.getProductId().equals(productId));
+		saveProducts();
 	}
 	
 	public Product viewProduct(String productId)
@@ -84,9 +89,11 @@ public class Inventory_Products
 		{
 			if(product.getProductId().equals(productId))
 			{
-				product.setQuantity(product.getQuantity());
+				product.setQuantity(product.getQuantity()+quantity);
 				transactions.add(new Transaction(generateUniqueId("TXN"),productId,"ADD",quantity,LocalDate.now()));
 				System.out.println("Stock added successfully!!");
+				saveProducts();
+				saveTransactions();
 				break;
 			}
 			
@@ -108,6 +115,8 @@ public class Inventory_Products
 		            product.setQuantity(product.getQuantity() - quantity);
 		            transactions.add(new Transaction(generateUniqueId("TXN"),productId,"REMOVE",quantity,LocalDate.now()));
 		            System.out.println("Stock removed successfully!");
+		            saveProducts();
+		            saveTransactions();
 		        } 
 				
 				else 
@@ -117,10 +126,6 @@ public class Inventory_Products
 				break;
 			}
 			
-			else
-			{
-				throw new InvalidProductException("Invalid Product Entered");
-			}
 		}
 		
 	}
@@ -134,12 +139,22 @@ public class Inventory_Products
 			if(transaction.getProductId().equals(productId))
 			{
 				history.add(transaction);
+				saveTransactions();
 
 			}
 		}
-		System.out.println(history + "\n");
+		System.out.println(history);
 		return history;
 		
 	}
+	
+	public void saveProducts() 
+	{
+        FileIO.saveToFile(filePath, products);
+    }
+	
+	public void saveTransactions() {
+        FileIO.saveToFile(txnFilePath, transactions);
+    }
 	
 }

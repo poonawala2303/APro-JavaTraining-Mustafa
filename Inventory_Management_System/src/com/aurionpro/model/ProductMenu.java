@@ -1,7 +1,4 @@
 package com.aurionpro.model;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 import com.aurionpro.exceptions.InsufficientStockException;
@@ -26,7 +23,7 @@ public class ProductMenu
 			System.out.println("Enter 7 to Remove Stock");
 			System.out.println("Enter 8 to View Transaction History");
 			System.out.println("Enter 9 to Exit");
-			
+			System.out.print("\nEnter your choice: ");
 			int choice = scanner.nextInt();
 			
 			switch(choice)
@@ -111,7 +108,7 @@ public class ProductMenu
 	
 	public void addStock() 
 	{
-		System.out.println("Adding Stock menu");
+		System.out.println("\nAdding Stock menu\n");
         System.out.print("Enter Product ID: ");
         scanner.nextLine();
         String id = scanner.nextLine();
@@ -125,13 +122,14 @@ public class ProductMenu
 	{
 		System.out.print("Enter Product ID: ");
 		scanner.nextLine();
-        String id = scanner.nextLine();
+        String ids = scanner.nextLine();
         System.out.print("Enter Quantity to remove: ");
         int quantity = scanner.nextInt();
         scanner.nextLine();
         try 
         {
-			inventoryprod.removeStock(id, quantity);
+//        	Product product = new Product();
+			inventoryprod.removeStock(ids, quantity);
 		} 
         
         catch (InsufficientStockException e) 

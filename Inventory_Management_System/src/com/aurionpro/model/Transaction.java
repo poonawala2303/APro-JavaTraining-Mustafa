@@ -1,9 +1,13 @@
 package com.aurionpro.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Transaction 
+public class Transaction implements Serializable
 {
+	
+	private static final long serialVersionUID = 1L;
+	
 	private String transactionId;
 	private String productId;
 	private String type;
@@ -62,7 +66,8 @@ public class Transaction
 	@Override
 	public String toString() {
 		return "Transaction [transactionId=" + transactionId + ", productId=" + productId + ", type=" + type
-				+ ", quantity=" + quantity + ", date=" + date + "]";
+				+ ", quantity=" + quantity + ", date=" + date + "]" + "\n";
 	}
+
 	
 }
