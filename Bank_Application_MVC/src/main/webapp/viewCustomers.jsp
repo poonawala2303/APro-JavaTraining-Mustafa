@@ -25,15 +25,59 @@
         .table {
             margin-top: 20px;
         }
+        .filter-section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .filter-btn {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .filter-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+        .clear-btn {
+            background-color: #dc3545;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .clear-btn:hover {
+            background-color: #b02a37;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+        .table {
+            margin-top: 20px;
+        }
+        .account-table {
+            margin: 0;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">ABC Bank</a>
-            <a href="login.jsp" class="btn btn-primary float-right">Logout</a>
+            <form action="LogoutController" method="GET">
+                <button class="btn btn-primary">
+                    Logout
+                </button>
+            </form>
         </div>
     </nav>
+    
+    
 
     <div class="container flex-grow">
         <h2 class="text-center mb-4">View Customers</h2>
@@ -44,6 +88,33 @@
                 <button type="submit" class="btn btn-primary btn-lg">
                     <i class="fas fa-users"></i> Display Customers
                 </button>
+            </form>
+        </div>
+        
+        <div class="filter-section mt-3">
+            <form action="ViewCustomerController" method="GET">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="firstName" id="firstName" value="${param.firstName}" placeholder="Enter first name">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="lastName" id="lastName" value="${param.lastName}" placeholder="Enter last name">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="email" value="${param.email}" placeholder="Enter email">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="minAccounts" class="form-label">Min Accounts</label>
+                        <input type="number" class="form-control" name="minAccounts" id="minAccounts" value="${param.minAccounts}" placeholder="Min">
+                    </div>
+                    <div class="col-md-1 d-flex align-items-end">
+                        <button type="submit" class="btn filter-btn me-2"><i class="fas fa-filter"></i> Filter</button>
+                        <a href="ViewCustomerController" class="btn clear-btn"><i class="fas fa-times"></i> Clear</a>
+                    </div>
+                </div>
             </form>
         </div>
 

@@ -39,7 +39,11 @@ footer {
 	<nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">ABC Bank</a>
-            <a href="login.jsp" class="btn btn-primary float-right">Logout</a>
+            <form action="LogoutController" method="GET">
+                <button class="btn btn-primary">
+                    Logout
+                </button>
+            </form>
         </div>
     </nav>
 

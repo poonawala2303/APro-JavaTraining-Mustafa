@@ -23,6 +23,7 @@ public class ViewCustomerController extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
 		Database db = new Database();
 		db.connect();
 		
@@ -32,6 +33,8 @@ public class ViewCustomerController extends HttpServlet {
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("viewCustomers.jsp");
         dispatcher.forward(request, response);
+	
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -11,7 +11,11 @@ public class BankAccount
         this.balance = balance;
     }
     
-    public int getAccountNumber() 
+    public BankAccount() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getAccountNumber() 
     {
         return accountNumber;
     }

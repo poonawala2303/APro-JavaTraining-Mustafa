@@ -26,6 +26,37 @@
 		{
             margin-top: 20px;
         }
+        .filter-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.filter-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.filter-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+.clear-btn {
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.clear-btn:hover {
+    background-color: #b02a37;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
     </style>
 </head>
 <body>
@@ -33,9 +64,15 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">ABC Bank</a>
-            <a href="login.jsp" class="btn btn-primary float-right">Logout</a>
+            <form action="LogoutController" method="GET">
+                <button class="btn btn-primary">
+                    Logout
+                </button>
+            </form>
         </div>
     </nav>
+    
+   
 
 	<section id="viewTxn" class="flex-grow">
     <div class="container">
@@ -46,6 +83,38 @@
                 <button class="btn btn-primary btn-lg">
                     <i class="fas fa-users"></i> View Transactions
                 </button>
+            </form>
+        </div>
+
+		<div class="filter-section mt-3">
+            <form action="ViewTransactionController" method="GET">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <label for="transactionType" class="form-label">Transaction Type</label>
+                        <select class="form-select" name="transactionType" id="transactionType">
+                            <option value="">All</option>
+                            <option value="credit" ${param.transactionType == 'credit' ? 'selected' : ''}>Credit</option>
+                            <option value="debit" ${param.transactionType == 'debit' ? 'selected' : ''}>Debit</option>
+                            <option value="transfer" ${param.transactionType == 'transfer' ? 'selected' : ''}>Transfer</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="accountNumber" class="form-label">Account Number</label>
+                        <input type="number" class="form-control" name="accountNumber" id="accountNumber" value="${param.accountNumber}" placeholder="Enter account number">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="minAmount" class="form-label">Min Amount</label>
+                        <input type="number" step="0.01" class="form-control" name="minAmount" id="minAmount" value="${param.minAmount}" placeholder="Min">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="maxAmount" class="form-label">Max Amount</label>
+                        <input type="number" step="0.01" class="form-control" name="maxAmount" id="maxAmount" value="${param.maxAmount}" placeholder="Max">
+                    </div>
+                    <div class="col-md-2 d-flex align-items-end">
+                        <button type="submit" class="btn filter-btn me-2"><i class="fas fa-filter"></i> Filter</button>
+                        <a href="ViewTransactionController" class="btn clear-btn"><i class="fas fa-times"></i> Clear</a>
+                    </div>
+                </div>
             </form>
         </div>
 

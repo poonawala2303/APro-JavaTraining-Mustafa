@@ -1,6 +1,7 @@
 package com.aurionpro.controller;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.aurionpro.entity.Customer;
 import com.aurionpro.entity.Role;
 import com.aurionpro.entity.Users;
 import com.aurionpro.model.Database;
@@ -27,6 +29,7 @@ public class LoginController extends HttpServlet {
 	{
 		response.setContentType("text/html");
 	    Database db = new Database();
+	    db.connect();
 
 	    String username = request.getParameter("username");
 	    String password = request.getParameter("password");
@@ -46,15 +49,22 @@ public class LoginController extends HttpServlet {
 
 	            if (user.getRole() == Role.admin) 
 	            {
-	                dispatcher = request.getRequestDispatcher("/admin.jsp");
+	            	response.sendRedirect("admin.jsp");
 	            } 
 	            
 	            else if (user.getRole() == Role.customer) 
 	            {
-	                dispatcher = request.getRequestDispatcher("/customer.jsp");
+	            	Customer customer = db.getCustomerByEmail(username + "@gmail.com");
+	            	 if (customer != null) 
+	            	 {
+	                     session.setAttribute("customer", customer);
+	                     List<Integer> accountNumbers = db.getAccountNumbersByCustomerId(customer.getCustomerId());
+	                     session.setAttribute("accountNumbers", accountNumbers);
+	                 }
+	            	response.sendRedirect("customer.jsp");
 	            }
 	            
-	            dispatcher.forward(request, response);
+//	            dispatcher.forward(request, response);
 	            
 	        } 
 	        
@@ -67,6 +77,7 @@ public class LoginController extends HttpServlet {
 	    
 	    else // Invalid Credentials
 	    {
+	    	request.setAttribute("error", "Invalid username or password");
 	        RequestDispatcher dispatcher = request.getRequestDispatcher("/error.jsp");
 	        dispatcher.forward(request, response);
 	    }

@@ -23,7 +23,7 @@
 	}
 	.aboutSection
 	{
-		background-color: #A6F1G0;
+		background-color: #E5F9F2;
 	}
 </style>
 
@@ -50,9 +50,24 @@
         <div class="container">
             <h1>Welcome to ABC Bank</h1>
             <p>Your trusted financial partner</p>
-            <form action="login.jsp" method="get">
-            	<button class="btn custom-green-btn d-grid gap-2 col-4 mx-auto">Start Banking</button>
-            </form>
+            
+            <div class="row">
+            
+            <div class="col-md-12 mb-3">
+            	<form action="login.jsp" method="get">
+            	<button class="btn custom-green-btn d-grid gap-2 col-4 mx-auto">Login</button>
+            	</form>
+            </div>
+            
+            <div class="col-md-12">
+            	<form action="signup.jsp" method="get">
+            	<button class="btn custom-green-btn d-grid gap-2 col-4 mx-auto">Sign Up</button>
+            	</form>
+            </div>
+            
+            </div>
+            
+           
         </div>
     </header>
     

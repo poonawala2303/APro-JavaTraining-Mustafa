@@ -4,18 +4,17 @@
 <html>
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <meta charset="ISO-8859-1">
 <title>Login</title>
 </head>
 
 <style>
-	.logincol
-	{
-		background-color: #A6F1E0;	
-	}
 	
 	body 
 {
+	background-color: #A6F1E0;	
 	display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -47,20 +46,21 @@
     		<img class="w-50 rounded-4" alt="image" src="https://5.imimg.com/data5/SELLER/Default/2024/4/409535413/HR/RX/QV/51398623/small-finance-bank-software-500x500.jpg">
     	</div>
     	
-    	<div class="col-md-6">
+    	<div class="col-md-6 mt-3">
     		<form action="LoginController" method="post">
     			
-    			<div class="mb-3">
-    				<label for="username" class="form-label">Username</label>
+    			<div class="input-group mb-3">
+    				<span class="input-group-text" id="basic-addon1"><i class="bi bi-person"></i></span>
     				<input type="text" class="form-control" name="username" placeholder="Enter your username" required>
     			</div>
     			
-    			<div class="mb-3">
-    				<label for="password" class="form-label">Password</label>
+    			<div class="input-group mb-3">
+    			<span class="input-group-text" id="basic-addon1"><i class="bi bi-eye-fill"></i></span>
     				<input type="password" class="form-control" name="password" placeholder="Enter your password" required>
     			</div>
-    			<div class="mb-3">
-    				<label for="contact" class="form-label">Login As:</label>
+    			
+    			<div class="input-group mb-3">
+    			<span class="input-group-text" id="basic-addon1">Login As:</span>
     				<select class="form-select custom-dropdown" name="role" required>
     					<option value="admin">Admin</option>
     					<option value="customer">Customer</option>
@@ -69,6 +69,7 @@
     			
     			<div class="d-grid gap-2 col-6 mx-auto">
     			<button class="btn btn-success">Login</button>
+    			<a href="signup.jsp" class="btn btn-outline-primary">Sign Up</a>
     			<a href="index.jsp" class="btn btn-outline-primary">Go to Home</a>
     			</div>
     		</form>

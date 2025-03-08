@@ -22,6 +22,13 @@ public class Transaction
 		this.toAccountNumber = toAccountNumber;
 	}
 
+	public Transaction(int accountNumber, String transactionType, double amount, Integer toAccountNumber) {
+        this.accountNumber = accountNumber;
+        this.btnType = transactionType;
+        this.amount = amount;
+        this.toAccountNumber = toAccountNumber;
+    }
+
 	public int getTransactionId() {
 		return transactionId;
 	}
