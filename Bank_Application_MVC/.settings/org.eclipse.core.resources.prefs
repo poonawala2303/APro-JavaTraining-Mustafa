@@ -1,2 +1,10 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/addBankAccount.jsp=UTF-8
+encoding//src/main/webapp/addNewCustomer.jsp=UTF-8
+encoding//src/main/webapp/addNewTransaction.jsp=UTF-8
+encoding//src/main/webapp/login.jsp=UTF-8
+encoding//src/main/webapp/passbook.jsp=UTF-8
+encoding//src/main/webapp/signup.jsp=UTF-8
+encoding//src/main/webapp/viewCustomers.jsp=UTF-8
+encoding//src/main/webapp/viewTransactions.jsp=UTF-8
 encoding/<project>=windows-1252

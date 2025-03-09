@@ -63,9 +63,59 @@
             margin: 0;
             font-size: 0.9em;
         }
+        /* Loader Styles */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensures it’s on top */
+    transition: opacity 0.5s ease; /* Smooth fade-out */
+}
+
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 6px solid #f3f3f3; /* Light gray border */
+    border-top: 6px solid #007bff; /* Blue top for spinning effect */
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Continuous spin */
+}
+
+.loader p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
     </style>
 </head>
 <body>
+	
+	<div id="loader" class="loader">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">ABC Bank</a>
@@ -76,9 +126,7 @@
             </form>
         </div>
     </nav>
-    
-    
-
+   
     <div class="container flex-grow">
         <h2 class="text-center mb-4">View Customers</h2>
         
@@ -176,5 +224,14 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script>
+    // Hide loader when page is fully loaded
+    window.addEventListener('load', function() {
+        const loader = document.getElementById('loader');
+        setTimeout(() => { // Optional delay for effect
+            loader.classList.add('hidden');
+        }, 1000); // Adjust delay (in milliseconds) as desired
+    });
+	</script>
 </body>
 </html>

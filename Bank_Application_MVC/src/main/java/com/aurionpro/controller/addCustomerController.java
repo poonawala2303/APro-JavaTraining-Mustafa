@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.aurionpro.entity.Customer;
+import com.aurionpro.entity.Role;
+import com.aurionpro.entity.Users;
 import com.aurionpro.model.Database;
 
 @WebServlet("/addCustomerController")
@@ -37,11 +39,16 @@ public class addCustomerController extends HttpServlet
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		
+		String newUsername = email.split("@")[0];
+		
 		Customer customer = new Customer(firstName,lastName,email,password);
 		
 		db.insertCustomer(customer);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/success.jsp");
+		Users user = new Users(newUsername,password,Role.customer);
+	    db.insertUser(user);
+		
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/login.jsp");
 		dispatcher.forward(request, response);
 	}
 
